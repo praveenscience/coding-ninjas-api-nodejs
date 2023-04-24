@@ -20,4 +20,12 @@ app.get("/", (req, res) => {
   res.json(users);
 });
 
+app.get("/:userId", (req, res) => {
+  if (typeof users[req.params.userId] === "undefined") {
+    res.status(404).json("Not found poda!");
+  } else {
+    res.json(users[req.params.userId]);
+  }
+});
+
 module.exports = app;
