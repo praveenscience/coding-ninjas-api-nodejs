@@ -7,7 +7,9 @@ app.get("/", (req, res) => {
   res.json("Welcome to API Server.");
 });
 
-const users = null;
-const tasks = null;
+const users = require("./users");
+const tasks = require("./tasks");
+app.use("/users", users);
+app.use("/tasks", tasks);
 
 module.exports = app;
