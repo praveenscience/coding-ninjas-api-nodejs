@@ -9,3 +9,13 @@
 ## Requirements
 
 - [Node.js](https://nodejs.org/en) - Use the LTS version. LTS means Long Term Support.
+
+## HTTP Verbs
+
+```
+Create                POST
+Read / Retrieve       GET
+Update - Fully        PUT
+Update - Partially    PATCH
+Delete                DELETE
+```
