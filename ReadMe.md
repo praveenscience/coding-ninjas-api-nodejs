@@ -7,6 +7,7 @@
 - [Sub to YouTube](https://www.youtube.com/praveenscience)
 - [Error 418 (I’m a teapot)!?](https://www.google.com/teapot)
 - [HTTP Cats](https://http.cat/)
+- [Git Shortcuts](https://blog.praveen.science/git-shortcuts/)
 
 ## Requirements
 
