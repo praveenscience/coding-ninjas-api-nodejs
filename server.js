@@ -15,6 +15,10 @@ app.post("/", (req, res) => {
   res.status(400).json("Why da?");
 });
 
+// Import API routes.
+const api = require("./api/api");
+app.use("/api", api);
+
 // App, please listen to a particular port.
 app.listen(port, () => {
   console.log(`Server started in port ${port}.`);
