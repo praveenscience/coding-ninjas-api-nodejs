@@ -1,0 +1,30 @@
+{
+  "name": "coding-ninjas-api-nodejs",
+  "version": "1.0.0",
+  "description": "Part of Praveen's Live Stream on Coding Ninjas.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praveenscience/coding-ninjas-api-nodejs.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "ExpressJS",
+    "Beginners",
+    "JavaScript",
+    "API"
+  ],
+  "author": "Praveen Kumar Purushothaman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/praveenscience/coding-ninjas-api-nodejs/issues"
+  },
+  "homepage": "https://github.com/praveenscience/coding-ninjas-api-nodejs#readme",
+  "dependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
