@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/praveenscience/coding-ninjas-api-nodejs#readme",
   "dependencies": {
+    "express": "^4.18.2",
     "nodemon": "^2.0.22"
   }
 }
